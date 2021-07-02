@@ -23,8 +23,8 @@ export function TableInfo({data}) {
           </TableRow>
         </TableHead>
         <TableBody>
-          {data.map((data) => (
-            <TableRow key={data.name}>
+          {data.map((data, index) => (
+            <TableRow key={index}>
               <TableCell component="th" scope="row" align="center">
                 {data.name}
               </TableCell>

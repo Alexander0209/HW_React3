@@ -8,7 +8,7 @@ import { FormStyled } from './styles';
 import { FormGroupStyled } from './styles';
 
 export const NewUserForm = ({handleClose, setData}) => {
-
+        
     const onSubmitHandler = ({name, surname, language, age, email}, {setSubmitting}) => {
         setSubmitting(false);
         setData((prev) => [...prev, {name, surname, language, age, email}]);

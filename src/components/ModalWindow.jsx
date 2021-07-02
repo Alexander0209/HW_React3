@@ -17,7 +17,6 @@ export const ModalWindow = ({isOpen, setModalOpen, setData}) => {
         setModalOpen(false);
     };
 
-
     return (
         <div>
             <OpenModalButton onClick={handleClickOpen}>Открыть форму</OpenModalButton>
